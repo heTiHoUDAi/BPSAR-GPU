@@ -1,0 +1,23 @@
+================================================================
+This is the input of BFA.exe (Back-Projection Imaging Algorithm)
+When user uses the BFA.exe, all parameters should be set in this 
+File. 
+Note! NO LINE SHOULD BE DELETED IN THIS FILE!!!!
+Note! THE NAME OF THIS FILE SHOULD NOT BE CHANGED!!!!
+================================================================
+----------------------------------------------------------------
+##1. The name of Es file (i.e. ship.txt)
+mono_totRCStotES_ship4_scaled_Center90_Thi60.txt
+----------------------------------------------------------------
+##2. Is the imaging range self-defined? (Path/No, if you give a path, the software will ignore following 2 parameters)
+No
+----------------------------------------------------------------
+##3. The X range of the imaging range. (min,max,resolution) (meter). The resolution is basiclly the increment of the range. 
+-10.00,10.00,0.01
+----------------------------------------------------------------
+##4. The Y range of the imaging range. (min,max,resolution) (meter). 
+-10.00,10.00,0.01
+----------------------------------------------------------------
+##5. The Z range of the imaging range. (min,max,resolution) (meter). Currently not support. 
+-10.00,10.00,0.01
+----------------------------------------------------------------

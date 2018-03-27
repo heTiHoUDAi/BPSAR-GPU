@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/12/27 13:20:38。
+     1>项目“E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\BFA\BFA.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\BFA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cufft.lib cufftw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\BFA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\BFA.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         BFA.vcxproj -> E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\BFA.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+         已复制         2 个文件。
+     1>已完成生成项目“E:\SVN\SAR\文件转出\20171210毕业整理\BFA\CUDA_BFA\BFA\BFA\BFA.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.93

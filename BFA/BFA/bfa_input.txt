@@ -1,0 +1,29 @@
+================================================================
+This is the input of BFA.exe (Back-Projection Imaging Algorithm)
+When user uses the BFA.exe, all parameters should be set in this 
+File. 
+Note! NO LINE SHOULD BE DELETED IN THIS FILE!!!!
+Note! THE NAME OF THIS FILE SHOULD NOT BE CHANGED!!!!
+================================================================
+----------------------------------------------------------------
+##1. The name of Es file (i.e. ship.txt)
+mono_totRCStotES_ship4_scaled_Center90_Thi60.txt
+----------------------------------------------------------------
+##2. The X range of the imaging range. (min max resolution) (meter). The resolution is basiclly the increment of the range. 
+-5.00 5.00 0.0032
+----------------------------------------------------------------
+##3. The Y range of the imaging range. (min max resolution) (meter). 
+-5.00 5.00 0.0050
+----------------------------------------------------------------
+##4. The size of Es file. (NumofFre NumOfPhi) 
+201 201
+----------------------------------------------------------------
+##5. Chose the polar. in (VV/HH/VH/HV/)
+HH
+----------------------------------------------------------------
+##6. Set the distance between the APC and scene center
+20000.0
+----------------------------------------------------------------
+##. Set the points of fouries for range compression. i.e. if the point of frequency is 200, then a 3000 point fft will be processed to compress the signal. 15 times is recommended.Must be EVEN
+20
+----------------------------------------------------------------

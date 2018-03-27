@@ -1,0 +1,20 @@
+﻿生成启动时间为 2017/3/8 20:06:31。
+     1>项目“E:\SVN\SAR\simulation\BFA\CUDA_BFA\BFA\BFA\BFA.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SVN\SAR\simulation\BFA\CUDA_BFA\BFA\Debug\BFA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\x64" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\Win32" /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib comctl32.lib cufft.lib cuda.lib cublas.lib cublas_device.lib cudadevrt.lib cudart_static.lib nvrtc.lib nvml.lib nvgraph.lib nvcuvid.lib nvblas.lib npps.lib nppitc.lib nppisu.lib nppist.lib nppim.lib nppig.lib nppif.lib nppidei.lib nppicom.lib nppicc.lib nppial.lib nppi.lib nppc.lib cusparse.lib cusolver.lib curand.lib cufftw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\SVN\SAR\simulation\BFA\CUDA_BFA\BFA\Debug\BFA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\SVN\SAR\simulation\BFA\CUDA_BFA\BFA\Debug\BFA.lib" /MACHINE:X86 Debug\kernel.cu.obj
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cudaFree@4，该符号在函数 _main 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cudaMalloc@8，该符号在函数 _main 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cudaSetupArgument@12，该符号在函数 "void __cdecl __device_stub__Z9addKernelPiPKiS1_(int *,int const *,int const *)" (?__device_stub__Z9addKernelPiPKiS1_@@YAXPAHPBH1@Z) 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cudaLaunch@4，该符号在函数 "enum cudaError __cdecl cudaLaunch<char>(char *)" (??$cudaLaunch@D@@YA?AW4cudaError@@PAD@Z) 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cudaMemcpy@16，该符号在函数 _main 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cufftPlan1d@16，该符号在函数 _main 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 _cufftExecC2C@16，该符号在函数 _main 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaRegisterFatBinary@4，该符号在函数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPAPAX@Z) 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaUnregisterFatBinary@4，该符号在函数 "void __cdecl __cudaUnregisterBinaryUtil(void)" (?__cudaUnregisterBinaryUtil@@YAXXZ) 中被引用
+     1>kernel.cu.obj : error LNK2019: 无法解析的外部符号 ___cudaRegisterFunction@40，该符号在函数 "void __cdecl __nv_cudaEntityRegisterCallback(void * *)" (?__nv_cudaEntityRegisterCallback@@YAXPAPAX@Z) 中被引用
+     1>E:\SVN\SAR\simulation\BFA\CUDA_BFA\BFA\Debug\BFA.exe : fatal error LNK1120: 10 个无法解析的外部命令
+     1>已完成生成项目“E:\SVN\SAR\simulation\BFA\CUDA_BFA\BFA\BFA\BFA.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.46
