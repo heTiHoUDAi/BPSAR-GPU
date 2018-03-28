@@ -1,5 +1,9 @@
-# BPSAR-GPU
+BPSAR-GPU
+=======================
 The Backprojection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar based on CUDA acceleration.
+|Author|Zisheng Wang|
+|---|---|
+|University|
 
 ***
 
