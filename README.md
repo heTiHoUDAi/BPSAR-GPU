@@ -1,14 +1,10 @@
-BPSAR-GPU
-=======================
-The Backprojection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar based on CUDA acceleration.
-|Author|Zisheng Wang|
-|---|---|
-|University|
+# BPSAR-GPU
+The Back-projection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar based on CUDA acceleration.
 
+**Author**: heTiHoUDAi.
 ***
 
-
-The backprojection (BP) or so called Beam Formation (BF) Imaging Algorithm is designed in this project. The BP algorithm firstly is stated in the CT area, then the same idea is used in the synthetic aperture radar (SAR)
+The backprojection (BP) or so called Beam Formation (BF) Imaging Algorithm is designed in this project. The BP algorithm firstly is stated in the CT area, then the same idea is used in the synthetic aperture radar (SAR).
 
 The Key idea of BP algorithm is coherently calculating the contribution of each pulse to each pixels, which, in details, Duersch PhD dissertation [1] or Jakowatz's paper [2]. Comparing to the well known Range-Doppler algorithm for ISAR/SAR, the most important advantage of the BP algorithm is non-distortion in wide angle, in other word, extremely high cross range resolution. However, the BP algorithm is extremely time-consumption. Even though several BP algorithm based on the sub-aperature algorithm by UCBerkely, the BPA is still to slow for very large scene.
 
@@ -16,8 +12,8 @@ Thus, in this project, I designed the BPA algorithm based on the CUDA accelerati
 
 
 
-
-Reference
+***
+**Reference**
 
 [1] Duersch, M. I. (2013). Backprojection for synthetic aperture radar. Brigham Young University.
 
