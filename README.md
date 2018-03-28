@@ -1,7 +1,8 @@
 # BPSAR-GPU
 The Backprojection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar based on CUDA acceleration.
 
-===========INTRODUCATION===========
+***
+
 
 The backprojection (BP) or so called Beam Formation (BF) Imaging Algorithm is designed in this project. The BP algorithm firstly is stated in the CT area, then the same idea is used in the synthetic aperture radar (SAR)
 
