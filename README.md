@@ -1,5 +1,5 @@
 # BPSAR-GPU
-The Back-projection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar based on CUDA acceleration.
+The Back-projection (Beam Formation) Imaging Algorithm for Synthetic Aperture Radar based on CUDA acceleration.2
 
 ![BPA for Ship](/Docu/BP_Ship.png) ![BPA for Flight](/Docu/a380_AJTF_whole.png)[1]
 
